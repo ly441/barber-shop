@@ -171,16 +171,38 @@ body::before {
     z-index: -1;
 }
 
-menu{
+/* Style the navigation bar */
+nav {
+     border-radius: 76ch;
+    padding: 15px 0;
+    text-align: center;
+    background-color: bisque;
+}
 
+/* Remove bullet points & make the menu horizontal */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; /* Centers the menu */
+}
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 100px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+/* Style each menu item */
+nav ul li {
+    margin: 0 20px; /* Space between items */
+}
+
+/* Style links */
+nav ul li a {
+    text-decoration: none;
+    color:purple;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    color:green; /* Gold hover effect */
 }
