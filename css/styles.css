@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,11 +7,10 @@ body {
     color: #333;
 }
 
-/* Header */
+
 header {
     text-align: center;
-    background: hsl(0, 0%, 0%);
-    color: white;
+    color: yellowgreen;
     padding: 40px 20px;
 }
 
@@ -20,7 +19,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Contact Container */
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -29,10 +28,10 @@ header h1 {
     padding: 40px 10%;
 }
 
-/* Contact Info & Form Boxes */
+
 .contact-info, .contact-form {
     width: 45%;
-    background: white;
+    background: blanchedalmond;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -43,7 +42,7 @@ header h1 {
     transform: translateY(-5px);
 }
 
-/* Contact Info */
+
 .contact-info h2 {
     color: goldenrod;
     margin-bottom: 15px;
@@ -93,7 +92,7 @@ header h1 {
     width: 100%;
     padding: 12px;
     margin-top: 5px;
-    border: 2px solid #ddd;
+    border: 2px solid black;
     border-radius: 8px;
     font-size: 1em;
     transition: border 0.3s ease;
@@ -106,7 +105,7 @@ header h1 {
 
 .contact-form button {
     background:green;
-    color: white;
+    color: black;
     padding: 12px;
     border: none;
     font-size: 1.1em;
@@ -160,7 +159,7 @@ body {
     background-attachment: fixed; 
 }
 
-/* Dark overlay */
+
 body::before {
     content: "";
     position: absolute;
@@ -168,7 +167,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Dark transparent layer */
+    background: rgba(0, 0, 0, 0.6); 
     z-index: -1;
 }
 
