@@ -278,5 +278,156 @@ nav ul li a:hover {
 }
      
 
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    height: 90vh;
+    margin: auto;
+}
 
 
+
+/* Image Styling */
+.slide img {
+    width: 100%;
+    height: 90vh;
+    border-radius: 10px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* Navigation Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Fade Animation */
+.fade {
+    animation: fadeEffect 1s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark theme */
+    color: #fff;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('images/barber-bg.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.book-now {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.book-now:hover {
+    background: #e6b800;
+}
+
+/* Services Section */
+#services {
+    text-align: center;
+    padding: 50px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.service-box h3 {
+    margin-bottom: 10px;
+    color: gold;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 50px;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 50px;
+}
