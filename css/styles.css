@@ -339,7 +339,7 @@ body {
 
 /* Hero Section */
 #hero {
-    background-image: url('images/barber-bg.jpg'); /* Add a background image */
+    
     background-size: cover;
     background-position: center;
     height: 90vh;
