@@ -227,7 +227,6 @@ nav ul li a:hover {
             background: white;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
 
@@ -247,25 +246,27 @@ nav ul li a:hover {
         
 
         
-.images-gallery {
-    display:inline-flex;
+.image-gallery {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
 }
 
 
-.images-gallery img {
-    width: 300px;
-    max-width: 200px;
+.image-gallery img {
+    width: 80%;
+    max-width: 80%;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
     object-fit: cover;
 }
 
 
-.images-gallery img:hover {
+.image-gallery img:hover {
     transform: scale(1.05);
     opacity: 0.9;
 }
