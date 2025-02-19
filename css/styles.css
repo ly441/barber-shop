@@ -280,19 +280,19 @@ nav ul li a:hover {
 }
 
 .barber-footer {
-    background-color: #222; /* Dark background */
-    color: white; /* Text color */
+    background-color: #222; 
+    color: white; /
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
     font-weight: bold;
-    border-top: 3px solid #ffcc00; /* Gold accent line */
+    border-top: 3px solid #ffcc00; 
 }
 
 .footer-content p {
     margin: 0;
     letter-spacing: 1px;
-    color: #bbb; /* Slightly gray text */
+    color: #bbb; 
 }
 
 
@@ -305,7 +305,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark theme */
+    background-color: #1a1a1a; 
     color:yellowgreen;
     font-weight: bolder;
     font-style: italic;
@@ -358,7 +358,7 @@ body {
     background: #e6b800;
 }
 
-/* Services Section */
+
 #services {
     text-align: center;
     padding: 50px;
@@ -385,7 +385,7 @@ body {
 }
 
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
