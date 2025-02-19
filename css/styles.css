@@ -257,10 +257,10 @@ nav ul li a:hover {
 .barber-slideshow {
     position: relative;
     width: 100%;
-    max-width: 80%; /* Bigger images */
-    height:2000px; /* Adjust height */
+    max-width: 80%; 
+    height:2000px; 
     margin: auto;
-    perspective: 1500px; /* 3D depth */
+    perspective: 1500px; 
     
 }
 
